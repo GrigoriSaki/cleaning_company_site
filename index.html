@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <title>Window Cleaning Services | Dick van Laar & Zn</title>
+  <link rel="icon" href="logo2.png" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+   <header class="fixed w-full bg-white shadow z-50">
+  <div class="max-w-6xl mx-auto px-6 flex justify-between items-center h-16">
+
+    <!-- logo + nazwa firmy -->
+    <div class="flex items-center space-x-3">
+      <!-- Logo po lewej -->
+      <img src="logo2.png" alt="Logo" class="h-10 w-auto">
+
+      <!-- Nazwa firmy w dwóch wierszach -->
+      <div class="flex flex-col">
+        <a href="#" class="font-bold text-base text-blue-600">
+          Schoonmaakbedrijf Glazenwasserij
+        </a>
+        <a href="#" class="font-bold text-2xl text-gray-700">
+          Dick van Laar & Zn
+        </a>
+      </div>
+    </div>
+
+    <!-- menu -->
+    <nav class="space-x-6 hidden md:flex">
+      <a href="#hero" class="text-gray-800 hover:text-blue-600 transition duration-300 transform hover:scale-105">Home</a>
+      <a href="#services" class="text-gray-800 hover:text-blue-600 transition duration-300 transform hover:scale-105">Services</a>
+      <a href="#about" class="text-gray-800 hover:text-blue-600 transition duration-300 transform hover:scale-105">About Us</a>
+      <a href="#why" class="text-gray-800 hover:text-blue-600 transition duration-300 transform hover:scale-105">Why Us</a>
+      <a href="#gallery" class="text-gray-800 hover:text-blue-600 transition duration-300 transform hover:scale-105">Gallery</a>
+      <a href="#careers" class="text-gray-800 hover:text-blue-600 transition duration-300 transform hover:scale-105">Careers</a>
+      <a href="#contact" class="text-gray-800 hover:text-blue-600 transition duration-300 transform hover:scale-105">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="hero" class="relative h-[500px] flex items-center justify-center text-center text-white opacity-0 translate-y-6 transition-all duration-700 ease-out">
+
+  <!-- background image -->
+  <div class="absolute inset-0">
+    <img 
+      src="https://www.abacuswindowcleaning.com/wp-content/uploads/2023/04/Professional-Window-Cleaning-Advice-1.jpg"
+      class="w-full h-full object-cover"
+    >
+  </div>
+
+  <!-- dark overlay -->
+  <div class="absolute inset-0 bg-black/50"></div>
+
+  <!-- content -->
+  <div class="relative z-10 max-w-2xl">
+
+    <h1 class="text-4xl md:text-5xl font-bold">
+      Professional Cleaning & Window Washing
+    </h1>
+    <h1 class="text-4xl md:text-5xl font-bold text-amber-200"> Since 1965</h1>
+
+    <p class="mt-6 text-lg">
+      Reliable commercial window cleaning services
+      for offices, shops and buildings.
+    </p>
+
+    <div class="mt-8">
+      <a 
+        href="tel:+31555215169"
+        class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 hover:shadow-lg transform hover:scale-105 transition duration-300"
+      >
+        Call Now
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="py-20 bg-gray-100">
+
+  <div class="max-w-6xl mx-auto px-6 text-center">
+
+    <h2 class="text-3xl font-bold">
+      Our Services
+    </h2>
+
+    <p class="mt-4 text-gray-600">
+      Professional window cleaning for commercial properties.
+    </p>
+
+    <div class="mt-12 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <!-- service 1 -->
+<div class="bg-white p-8 rounded-xl shadow hover:scale-105 hover:shadow-lg transition-transform">
+  <div class="text-4xl">🪟</div>
+  <h3 class="mt-4 text-xl font-semibold">
+    Window Cleaning
+  </h3>
+  <p class="mt-3 text-gray-600">
+Professional window cleaning for offices and commercial buildings, 
+including high-access work using certified equipment.
+</p>
+</div>
+
+<!-- service 2 -->
+<div class="bg-white p-8 rounded-xl shadow hover:scale-105 hover:shadow-lg transition-transform">
+  <div class="text-4xl">🧹</div>
+  <h3 class="mt-4 text-xl font-semibold">
+    Cleaning Services
+  </h3>
+  <p class="mt-3 text-gray-600">
+    Professional cleaning of offices, shops and commercial spaces, 
+including maintenance of common areas in residential buildings.
+  </p>
+</div>
+
+<!-- service 3 -->
+<div class="bg-white p-8 rounded-xl shadow hover:scale-105 hover:shadow-lg transition-transform">
+  <div class="text-4xl">🏢</div>
+  <h3 class="mt-4 text-xl font-semibold">
+    VvE & Building Maintenance
+  </h3>
+  <p class="mt-3 text-gray-600">
+    Cleaning and maintenance of common areas for residential buildings and VvE organisations.
+  </p>
+</div>
+
+<!-- service 4 -->
+<div class="bg-white p-8 rounded-xl shadow hover:scale-105 hover:shadow-lg transition-transform">
+  <div class="text-4xl">🚧</div>
+  <h3 class="mt-4 text-xl font-semibold">
+    Aerial Platform Work
+  </h3>
+  <p class="mt-3 text-gray-600">
+    High-access cleaning and maintenance using our own aerial platform 
+up to 26 meters. Also available for short jobs including operator.
+  </p>
+</div>
+
+<!-- service 5 -->
+<div class="bg-white p-8 rounded-xl shadow hover:scale-105 hover:shadow-lg transition-transform">
+  <div class="text-4xl">🧽</div>
+  <h3 class="mt-4 text-xl font-semibold">
+    Additional Cleaning Services
+  </h3>
+  <p class="mt-3 text-gray-600">
+    We also provide façade cleaning, graffiti removal, carpet cleaning and other maintenance services using professional equipment and techniques.
+  </p>
+</div>
+</section>
+
+<!-- ABOUT US -->
+<section id="about" class="py-20 bg-gray-50 opacity-0 translate-y-6 transition-all duration-700 ease-out">
+
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <!-- tekst -->
+      <div>
+        <h2 class="text-3xl font-bold">
+          About Our Company
+        </h2>
+
+        <p class="mt-6 text-gray-600">
+Schoonmaakbedrijf Dick van Laar & Zn has been providing professional cleaning 
+services in the Apeldoorn region since <span class="font-bold">1965</span>. As a family-run business with 
+decades of experience, we have built a strong reputation for reliability, 
+quality and long-term partnerships with our clients.
+</p>
+
+<p class="mt-4 text-gray-600">
+Our daily work includes cleaning offices, commercial buildings, shops and 
+the common areas of residential complexes. We create clean and comfortable 
+working and living environments for our clients.
+</p>
+
+<p class="mt-4 text-gray-600">
+We work with <span class="font-bold">flexible</span> schedules tailored to the needs of our customers and 
+focus strongly on service, quality and clear communication.
+</p>
+
+<p class="mt-4 text-gray-600">
+Some of our clients have been working with us for <span class="font-bold">more than 50</span> years.
+</p>
+
+<p class="mt-4 text-gray-600">
+Safety is a top priority in our work. All equipment such as ladders and aerial platforms 
+is regularly inspected and certified to ensure safe and reliable service.
+</p>
+
+<p class="mt-4 text-gray-600">
+We are specialised in working at height using professional aerial 
+platforms and certified equipment.
+</p>
+
+<p class="mt-4 text-gray-600">
+Since 1995 we have specialised in high-access cleaning using professional aerial platforms.
+</p>
+      </div>
+      <!-- obraz -->
+      <div>
+        <img src="https://images.unsplash.com/photo-1482449609509-eae2a7ea42b7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+        alt="Cleaning service" 
+        class="rounded-xl shadow-lg">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section id="why" class="py-20 bg-white opacity-0 translate-y-6 transition-all duration-700 ease-out">
+
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="text-center">
+      <h2 class="text-3xl font-bold">
+        Why Choose Us
+      </h2>
+      <p class="mt-4 text-gray-600">
+        A trusted cleaning company serving the Apeldoorn region since 1965.
+      </p>
+    </div>
+    <div class="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-center">
+
+      <!-- item -->
+      <div>
+        <div class="text-4xl">🏆</div>
+        <h3 class="mt-4 font-semibold text-lg">60+ Years Experience</h3>
+        <p class="mt-2 text-gray-600">
+          A family business providing professional cleaning services since 1965.
+        </p>
+      </div>
+
+      <!-- item -->
+      <div>
+        <div class="text-4xl">💼</div>
+        <h3 class="mt-4 font-semibold text-lg">Commercial Specialists</h3>
+        <p class="mt-2 text-gray-600">
+          Trusted by companies, institutions and building associations.
+        </p>
+      </div>
+
+      <!-- item -->
+      <div>
+        <div class="text-4xl">🏗️</div>
+        <h3 class="mt-4 font-semibold text-lg">Own Aerial Platform</h3>
+        <p class="mt-2 text-gray-600">
+          High access cleaning up to 26 meters with our own equipment.
+        </p>
+      </div>
+
+      <!-- item -->
+      <div>
+        <div class="text-4xl">🤝</div>
+        <h3 class="mt-4 font-semibold text-lg">Reliable & Flexible</h3>
+        <p class="mt-2 text-gray-600">
+          Clear communication, reliable service and long-term partnerships.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="py-20 bg-gray-100 opacity-0 translate-y-6 transition-all duration-700 ease-out">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="text-center">
+      <h2 class="text-3xl font-bold">
+        Our Work
+      </h2>
+      <p class="mt-4 text-gray-600">
+        See some of our recent projects.
+      </p>
+    </div>
+
+    <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <img 
+        src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac"
+        class="rounded-xl shadow object-cover h-64 w-full"
+      >
+      <img 
+        src="https://images.unsplash.com/photo-1503387762-592deb58ef4e"
+        class="rounded-xl shadow object-cover h-64 w-full"
+      >
+      <img 
+        src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab"
+        class="rounded-xl shadow object-cover h-64 w-full"
+      >
+      <img 
+        src="https://images.unsplash.com/photo-1541354454332-51b3f20a449d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        class="rounded-xl shadow object-cover h-64 w-full"
+      >
+      <img 
+        src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4"
+        class="rounded-xl shadow object-cover h-64 w-full"
+      >
+      <img 
+        src="https://images.unsplash.com/photo-1497366754035-f200968a6e72"
+        class="rounded-xl shadow object-cover h-64 w-full"
+      >
+    </div>
+  </div>
+</section>
+
+<!-- CAREERS / VACANCIES -->
+<section id="careers" class="py-20 bg-gray-50 opacity-0 translate-y-6 transition-all duration-700 ease-out">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold">Vacancies</h2>
+    <p class="mt-4 text-gray-600">Join our team! Check our available positions below.</p>
+    <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+      <!-- Job 1 -->
+      <div class="bg-white p-8 rounded-xl shadow hover:shadow-lg hover:scale-105 transition-transform">
+        <div class="text-4xl mb-4">🧹</div>
+        <h3 class="font-semibold text-xl">Part-time Cleaning Staff</h3>
+        <p class="mt-2 text-gray-600">32 hours per week, Monday to Friday (06:00 - 12:25)</p>
+        <p class="mt-2 text-gray-600">Tasks: Perform cleaning duties together with colleagues at our clients’ premises.</p>
+        <p class="mt-2 text-gray-600">Requirements: Team player, neat and precise, preferably with driving license B and cleaning experience.</p>
+        <p class="mt-2 font-semibold text-blue-600">Available: Yes, start in consultation.</p>
+        <a href="#contact" class="inline-block mt-4 bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">
+          Apply Now
+        </a>
+      </div>
+      <!-- Job 2 -->
+      <div class="bg-white p-8 rounded-xl shadow hover:shadow-lg hover:scale-105 transition-transform">
+        <div class="text-4xl mb-4">🪟</div>
+        <h3 class="font-semibold text-xl">Full-time Cleaning Staff / Window Cleaner</h3>
+        <p class="mt-2 text-gray-600">38 hours per week, Monday to Friday (07:00 - 15:30)</p>
+        <p class="mt-2 text-gray-600">Tasks: Independently and with colleagues perform various cleaning duties and window cleaning at clients’ locations.</p>
+        <p class="mt-2 text-gray-600">Requirements: Team player, neat and precise, preferably with driving license B and cleaning experience.</p>
+        <p class="mt-2 font-semibold text-blue-600">Available: Yes, immediate start.</p>
+        <a href="#contact" class="inline-block mt-4 bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">
+          Apply Now
+        </a>
+      </div>
+    </div>
+    <p class="mt-12 text-gray-600">
+      Currently no vacancies? We’re always looking for motivated people, so maybe next time there will be a position for you!
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="pt-19 pb-12 bg-blue-600 text-white opacity-0 translate-y-6 transition-all duration-700 ease-out">
+  <div class="pt-3 max-w-4xl mx-auto text-center px-6">
+    <h2 class="text-3xl font-bold">
+      Get a Free Quote
+    </h2>
+    <p class="mt-2 text-lg text-blue-100">
+      Contact us today for professional commercial window cleaning.
+    </p>
+    <div class="mt-8 space-y-2 text-lg">
+      <p>
+        📞 Phone: 
+        <a href="tel:+31555215169" class="underline font-semibold">
+          055-5215169
+        </a>
+      </p>
+      <p>
+        ✉️ Email: 
+        <a href="mailto: schoonmaak@vanlaar-info.nl" class="underline font-semibold">
+          info@company.nl
+        </a>
+      </p>
+    </div>
+    <div class="mt-10">
+      <a 
+        href="tel:+31555215169"
+        class="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition"
+      >
+        Call Now
+      </a>
+    </div>
+  </div>
+</section>
+<footer class="bg-gray-800 text-gray-200 py-3 text-center">
+  © 2026 Schoonmaakbedrijf Dick van Laar & Zn. All rights reserved.
+</footer>
+<script src="scroll_effect.js"></script>
+</body>
